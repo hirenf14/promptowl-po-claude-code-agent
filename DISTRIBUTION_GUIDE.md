@@ -76,7 +76,7 @@ Claude: [Installs Playwright MCP, adds tools, configures]
 
 **One-line install:**
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/promptowl/promptowl/main/claude-code-agents/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/hirenf14/promptowl-po-claude-code-agent/main/install.sh)
 ```
 
 **What it does:**
@@ -98,7 +98,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/promptowl/promptowl/main/cla
 
 ```bash
 # 1. Install agents
-bash <(curl -fsSL https://raw.githubusercontent.com/promptowl/promptowl/main/claude-code-agents/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/hirenf14/promptowl-po-claude-code-agent/main/install.sh)
 
 # 2. Get API key from PromptOwl
 #    https://app.promptowl.ai/api-keys
@@ -129,8 +129,8 @@ Use promptowl-mcp-deployer to add GitHub integration to my DevOps agent
 ## Distribution Channels
 
 ### 1. GitHub Repository
-- Public repo: `github.com/promptowl/promptowl`
-- Folder: `/claude-code-agents/`
+- Public repo: `github.com/hirenf14/promptowl-po-claude-code-agent`
+- Files in root directory
 - Raw URLs for curl install
 - Issues/support on GitHub
 
@@ -314,16 +314,16 @@ Before release:
 
 ### 1. Testing (Local)
 ```bash
-cd claude-code-agents
+cd promptowl-po-claude-code-agent
 ./install.sh  # Test install
 # Test each agent
 ```
 
 ### 2. Commit to Main Branch
 ```bash
-git add claude-code-agents/
+git add .
 git commit -m "feat: Add distributable Claude Code agents"
-git push origin feat/claude-code-integration
+git push origin main
 ```
 
 ### 3. Create PR

@@ -6,12 +6,12 @@ Autonomous agents for building, testing, and deploying PromptOwl agents directly
 
 ```bash
 # Install all PromptOwl agents
-curl -fsSL https://raw.githubusercontent.com/promptowl/promptowl/main/claude-code-agents/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hirenf14/promptowl-po-claude-code-agent/main/install.sh | bash
 
 # Or install individually
 mkdir -p ~/.claude/agents
 curl -o ~/.claude/agents/promptowl-builder.md \
-  https://raw.githubusercontent.com/promptowl/promptowl/main/claude-code-agents/promptowl-builder.md
+  https://raw.githubusercontent.com/hirenf14/promptowl-po-claude-code-agent/main/promptowl-builder.md
 ```
 
 ## Prerequisites
@@ -101,14 +101,14 @@ Claude, use the promptowl-mcp-deployer agent to add Playwright browser testing t
 
 ```bash
 # Install all agents
-bash <(curl -fsSL https://raw.githubusercontent.com/promptowl/promptowl/main/claude-code-agents/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/hirenf14/promptowl-po-claude-code-agent/main/install.sh)
 ```
 
 ### Method 2: Git Clone
 
 ```bash
-git clone https://github.com/promptowl/promptowl.git
-cd promptowl/claude-code-agents
+git clone https://github.com/hirenf14/promptowl-po-claude-code-agent.git
+cd promptowl-po-claude-code-agent
 ./install.sh
 ```
 
@@ -119,9 +119,9 @@ mkdir -p ~/.claude/agents
 cd ~/.claude/agents
 
 # Download each agent
-curl -O https://raw.githubusercontent.com/promptowl/promptowl/main/claude-code-agents/promptowl-builder.md
-curl -O https://raw.githubusercontent.com/promptowl/promptowl/main/claude-code-agents/promptowl-tester.md
-curl -O https://raw.githubusercontent.com/promptowl/promptowl/main/claude-code-agents/promptowl-mcp-deployer.md
+curl -O https://raw.githubusercontent.com/hirenf14/promptowl-po-claude-code-agent/main/promptowl-builder.md
+curl -O https://raw.githubusercontent.com/hirenf14/promptowl-po-claude-code-agent/main/promptowl-tester.md
+curl -O https://raw.githubusercontent.com/hirenf14/promptowl-po-claude-code-agent/main/promptowl-mcp-deployer.md
 ```
 
 ## Usage Examples
@@ -279,9 +279,9 @@ which claude
 Want to add more agents or improve existing ones?
 
 ```bash
-git clone https://github.com/promptowl/promptowl.git
-cd promptowl/claude-code-agents
-# Edit agents/*.md files
+git clone https://github.com/hirenf14/promptowl-po-claude-code-agent.git
+cd promptowl-po-claude-code-agent
+# Edit *.md files
 git commit -am "Improve agent X"
 git push
 # Create PR
@@ -290,7 +290,7 @@ git push
 ## Support
 
 - **Documentation:** https://app.promptowl.ai/docs/claude-code
-- **Issues:** https://github.com/promptowl/promptowl/issues
+- **Issues:** https://github.com/hirenf14/promptowl-po-claude-code-agent/issues
 - **Discord:** https://discord.gg/promptowl
 - **Email:** support@promptowl.ai
 

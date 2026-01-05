@@ -4,7 +4,7 @@
 
 set -e
 
-REPO_URL="https://raw.githubusercontent.com/promptowl/promptowl/main/claude-code-agents"
+REPO_URL="https://raw.githubusercontent.com/hirenf14/promptowl-po-claude-code-agent/main"
 AGENTS_DIR="$HOME/.claude/agents"
 
 # Colors
@@ -91,5 +91,5 @@ fi
 echo -e ""
 
 echo -e "${BLUE}Support:${NC}"
-echo -e "  https://github.com/promptowl/promptowl/issues"
+echo -e "  https://github.com/hirenf14/promptowl-po-claude-code-agent/issues"
 echo -e ""
